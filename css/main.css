@@ -30,6 +30,7 @@ html {
 p {
   margin: 1rem;
   font-size: 1rem;
+  color: #512200;
 }
 
 dl {
@@ -39,6 +40,7 @@ dl {
   margin: 1rem;
   margin-bottom: 0;
   font-size: 0.875rem;
+  color: #512200;
   padding: 1rem 0;
 }
 
