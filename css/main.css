@@ -1,7 +1,7 @@
 html {
 	box-sizing: border-box;
   background-color: #f0eee8;
-  font-family: Georgia: serif;
+  font-family: Georgia, serif;
   line-height: 1.5rem;
 }
 
@@ -38,10 +38,11 @@ dl {
   border-style: solid;
   margin: 1rem;
   margin-bottom: 0;
+  font-size: 0.875rem;
 }
 
 dt {
-  display: inline block;
+  display: inline-block;
 }
 
 dd {
@@ -57,14 +58,19 @@ div {
   text-decoration: none;
   font-weight: bold;
   font-family: "Dosis", sans-serif;
+  font-size: 1.125rem;
   display: inline-block;
   background-color: #785439;
   color: #fff;
   padding: 0.5em 0.75em;
-  border-radius: 3px;
+  border-radius: 8px;
   margin: 1rem;
 }
 
-.btn:hover {
+.link-card:hover {
+  background-color: #cabdb2;
+}
 
+.link-card:hover .btn {
+  background-color: #512200;
 }
