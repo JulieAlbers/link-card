@@ -2,8 +2,69 @@ html {
 	box-sizing: border-box;
   background-color: #f0eee8;
   font-family: Georgia: serif;
+  line-height: 1.5rem;
 }
 
 *, *::before, *::after {
 	box-sizing: inherit;
+}
+
+.link-card {
+  display: block;
+  text-decoration: none;
+  color: #512200;
+  background-color: #dcd4cd;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #9a816d;
+  border-radius: 8px;
+}
+
+h2 {
+  font-family: "Dosis", sans-serif;
+  font-weight: bold;
+  color: #512200;
+  margin: 1rem;
+}
+
+p {
+  margin: 1rem;
+  font-size: 1rem;
+}
+
+dl {
+  border-width: 2px 0;
+  border-color: #9a816d;
+  border-style: solid;
+  margin: 1rem;
+  margin-bottom: 0;
+}
+
+dt {
+  display: inline block;
+}
+
+dd {
+  font-style: italic;
+}
+
+div {
+  text-align: center;
+}
+
+.btn {
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Dosis", sans-serif;
+  display: inline-block;
+  background-color: #785439;
+  color: #fff;
+  padding: 0.5em 0.75em;
+  border-radius: 3px;
+  margin: 1rem;
+}
+
+.btn:hover {
+
 }
